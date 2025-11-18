@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Simples - Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Loja Simples</h1>
+        <p>Escolha seu produto favorito!</p>
+    </header>
+
+    <section class="produtos">
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarCarrinho('Produto 1')">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p>R$ 59,90</p>
+            <button onclick="adicionarCarrinho('Produto 2')">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Produto 3">
+            <h3>Produto 3</h3>
+            <p>R$ 39,90</p>
+            <button onclick="adicionarCarrinho('Produto 3')">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <section class="carrinho">
+        <h2>Carrinho</h2>
+        <ul id="lista-carrinho"></ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Loja Simples</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
